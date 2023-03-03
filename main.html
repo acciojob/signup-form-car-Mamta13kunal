@@ -5,39 +5,36 @@
 </head>
 <body>
 <!-- the entire body must be written by student -->
-<div class="container-fluid">
-<div class="row">
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-<div class="coloumn1"><img src="https://picsum.photos/seed/picsum/200/300"></div>
-</div>
-<div class="row">
-<div class="coloumn2"><img src="https://picsum.photos/200/300/?blur=1"></div>
-<div class="coloumn2"><img src="https://picsum.photos/200/300/?blur=1"></div>
-<div class="coloumn2"><img src="https://picsum.photos/200/300/?blur=1"></div>
-<div class="coloumn2"><img src="https://picsum.photos/200/300/?blur=1"></div>
-<div class="coloumn2"><img src="https://picsum.photos/200/300/?blur=1"></div>
-<div class="coloumn2"><img src="https://picsum.photos/200/300/?blur=1"></div>
-</div>
-<div class="row">
-<div class="coloumn3"><img src="https://picsum.photos/200/300/?blur=2"></div>
-<div class="coloumn3"><img src="https://picsum.photos/200/300/?blur=2"></div>
-<div class="coloumn3"><img src="https://picsum.photos/200/300/?blur=2"></div>
-</div>
-<div class="row">
-<div class="coloumn4"><img src="https://picsum.photos/200/300/?blur=3"></div>
-</div>
-</div>
-<script type="text/javascript" src="./script.js">
-</script>
+	<form method="post" target="_blank">
+		 <div><label for="name">Name</label>
+        <input type="text" required id="name" placeholder="Name">
+		 </div>
+		<div><lable for="email">Email</lable>
+		<input type="Email" required id="email" placeholder="Email">
+		</div>
+		<div>
+            <label for="gender">Gender*</label>
+            <input type="radio" id="gender" name="gender" required>Male
+            <input type="radio" id="gender" name="gender" required>Female
+        </div>
+		<div><lable for="cars">Car Brands</lable>
+		<select id="cars" placeholder="Please choose an option">
+		<option value="Tata Punch">Tata Punch</option>
+		<option value="Hyundai">Hyundai</option>
+		<option value=Nexon>Nexon</option></select>
+		</div>
+		<div><lable for="age">Age</lable>
+		<input type="number" id="age" placeholder="Age"></div>
+		<div><lable for="dob">Dob</lable>
+		<input type="date" required d="dob"></div>
+		<div><lable for="tel">Phone Number</lable>
+		<input type="number" required id="tel" placeholder="xxx-xxx-xxxx">
+		</div>
+		<div><lable for="password">Password</lable>
+		<input type="password" required id="password" placeholder="Password"</div>
+			<div><lable for="tos">TOS</lable>
+			<input type="checkbox" required id="tos"></div>
+			<div><button type="submit" value="submit">Submit</div>
+<script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
